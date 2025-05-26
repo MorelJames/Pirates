@@ -35,3 +35,14 @@ Use coins to upgrade your ship’s base stats:
 - ❤️ Max Health
 
 - 💣 Attack Damage
+## 📦 Project Structure
+All core game content is located under Assets/Game/:
+
+    Assets/
+    └── Game/
+        ├── Scenes/     # Game scenes
+        ├── Images/     # Icons and UI images
+        ├── Prefabs/    # Ships, crew, treasure chests, etc.
+        ├── Scripts/    # Gameplay scripts (movement, combat, UI, etc.)
+        ├── Inputs/     # Input system settings
+        ├── UI/         # UI elements

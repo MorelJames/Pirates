@@ -1,0 +1,55 @@
+.hoverable {
+}
+
+.bar {
+    align-self: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-bottom: 10%;
+}
+
+.unity-progress-bar__container {
+    justify-content: space-between;
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+
+.unity-progress-bar__background {
+    background-color: rgb(79, 32, 15);
+}
+
+.LifeBar {
+}
+
+#LifeBar .unity-progress-bar__progress {
+    background-color: rgb(255, 45, 45);
+}
+
+#ReloadBar .unity-progress-bar__progress {
+    background-color: rgb(0, 115, 70);
+}
+
+.unity-progress-bar__title {
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    -unity-font: initial;
+}
+
+.upgradeBtn {
+    height: 100%;
+}
+
+.upgradePrice {
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    font-size: 27px;
+}
+
+.UpgradeBtnContainer {
+    width: 100%;
+    flex-direction: column-reverse;
+}

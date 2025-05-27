@@ -44,6 +44,6 @@ public class GameUIManager : MonoBehaviour
 
     private void ToggleUpgradeWindow()
     {
-        upgradeWindow.style.display = upgradeWindow.style.display == DisplayStyle.Flex ? DisplayStyle.None : DisplayStyle.Flex;
+        upgradeWindow.style.visibility = upgradeWindow.style.visibility== Visibility.Visible ? Visibility.Hidden : Visibility.Visible;
     }
 }

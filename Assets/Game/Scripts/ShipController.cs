@@ -232,6 +232,8 @@ public class ShipController : MonoBehaviour, IDamageable
         reloadbar.value = currentReloadingState;
         if (currentReloadingState == maxReloading)
             reloadbar.title = "Ready to shoot";
+        else
+            reloadbar.title = "Reload";
     }
 
     public void UpgradeHealth()
